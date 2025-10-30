@@ -6,4 +6,4 @@
 
 <!---This is our webpage that has our top 10 favorite video games, movies!!!---->
 
-<!--Peer Reviewwd:------>
+<!--Peer Review:------>
