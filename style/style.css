@@ -81,9 +81,27 @@ color: #ffffff;
     z-index: 1;
 }
 .BG {
-    background-image: url(../images/background.png); 
+    background-image: url(../images/Background2.webp); 
     background-size: cover;      
     background-repeat: no-repeat; 
     background-position: center;  
     background-attachment: fixed; 
 }
+.imageSpace {
+    display: flex;
+    float: right;
+}
+.movie-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 5px;
+        margin-bottom: 1.5rem;
+      }
+      .movie-item img {
+        width: 100px;
+        height: auto;
+        border-radius: 5px;
+      }
+      .movie-text h3, .movie-text h4 {
+        margin: 0;
+      }
