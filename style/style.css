@@ -6,25 +6,28 @@
     text-align: justify;
     color: white;
     font-size: 120px;
-    font-family: "Joti One", sans-serif; 
+    font-family: "Joti One", sans-serif;
 }
 
 .text2 {
     color: white;
     font-size: 60px;
-    font-family: "Joti One", sans-serif; 
+    font-family: "Joti One", sans-serif;
 }
+
 .text3 {
     color: black;
     font-size: 20px;
-    font-family:"joti One", sans-serif;
+    font-family: "joti One", sans-serif;
 }
+
 .text4 {
     color: white;
     font-size: 40px;
     font-family: "Joti One", sans-serif;
 }
-.text5{
+
+.text5 {
     color: white;
     font-size: 20px;
     font-family: "Joti One", sans-serif;
@@ -44,26 +47,30 @@
     font-weight: 400;
     font-style: normal;
 }
-.rotated-image{
-        transform: rotate(-385deg);
-        transition: none; 
-        display: inline-block;
-        margin-right: -330px;
-      }
+
+.rotated-image {
+    transform: rotate(-385deg);
+    transition: none;
+    display: inline-block;
+    margin-right: -330px;
+}
+
 .mirrored-image {
-        transform: scaleX(-1) rotate(-400deg);
-        margin-top: -40px;
-        height: 200px;
-        max-width: 300px;
-        object-fit: contain;
-      }  
+    transform: scaleX(-1) rotate(-400deg);
+    margin-top: -40px;
+    height: 200px;
+    max-width: 300px;
+    object-fit: contain;
+}
+
 .custom-navbar .navbar-brand,
 .custom-navbar .nav-link {
     color: white;
     transition: color 0.3s, background-color 0.3s;
 }
+
 .custom-navbar .nav-link.active {
-color: #ffffff;
+    color: #ffffff;
 }
 
 .custom-navbar::before {
@@ -73,35 +80,42 @@ color: #ffffff;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 0;
 }
+
 .custom-navbar .container-fluid {
     position: relative;
     z-index: 1;
 }
+
 .BG {
-    background-image: url(../images/Background2.webp); 
-    background-size: cover;      
-    background-repeat: no-repeat; 
-    background-position: center;  
-    background-attachment: fixed; 
+    background-image: url(../images/Background2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
+
 .imageSpace {
     display: flex;
-    float: right;
+    
 }
+ 
 .movie-item {
-        display: flex;
-        align-items: flex-start;
-        gap: 5px;
-        margin-bottom: 1.5rem;
-      }
-      .movie-item img {
-        width: 100px;
-        height: auto;
-        border-radius: 5px;
-      }
-      .movie-text h3, .movie-text h4 {
-        margin: 0;
-      }
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.movie-item img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie-text h3,
+.movie-text h4 {
+    margin: 0;
+}
