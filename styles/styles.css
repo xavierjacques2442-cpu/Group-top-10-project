@@ -1,0 +1,32 @@
+.joti-one-regular {
+    font-family: "Joti One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.custom-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.grayBar {
+    background-color: rgb(0, 0, 0, 0.4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.textColor {
+    color: white;
+}
+.size {
+    margin-left:  50px;
+    margin-right: 50px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.imageSize {
+    height: 1080px;
+    width: 1920px;
+}
+.backgroundImage {
+    background-image: url("../assets/terrariabackground.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
