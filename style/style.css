@@ -1,9 +1,89 @@
-.body{
+.body {
     background-color: black;
 }
-.text{
+
+.text {
     text-align: justify;
     color: white;
-    font-size: 100px;
-    font-family: fantasy;
+    font-size: 120px;
+    font-family: "Joti One", sans-serif; 
+}
+
+.text2 {
+    color: white;
+    font-size: 60px;
+    font-family: "Joti One", sans-serif; 
+}
+.text3 {
+    color: black;
+    font-size: 20px;
+    font-family:"joti One", sans-serif;
+}
+.text4 {
+    color: white;
+    font-size: 40px;
+    font-family: "Joti One", sans-serif;
+}
+.text5{
+    color: white;
+    font-size: 20px;
+    font-family: "Joti One", sans-serif;
+}
+
+.left {
+    margin-left: -600px;
+}
+
+.right {
+    margin-right: 100px;
+}
+
+
+.joti-one-regular {
+    font-family: "Joti One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.rotated-image{
+        transform: rotate(-385deg);
+        transition: none; 
+        display: inline-block;
+        margin-right: -330px;
+      }
+.mirrored-image {
+        transform: scaleX(-1) rotate(-400deg);
+        margin-top: -40px;
+        height: 200px;
+        max-width: 300px;
+        object-fit: contain;
+      }  
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: white;
+    transition: color 0.3s, background-color 0.3s;
+}
+.custom-navbar .nav-link.active {
+color: #ffffff;
+}
+
+.custom-navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 0;
+}
+.custom-navbar .container-fluid {
+    position: relative;
+    z-index: 1;
+}
+.BG {
+    background-image: url(../images/background.png); 
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
 }
